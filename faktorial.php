@@ -10,5 +10,14 @@ function faktorial($n)
     }
     return $hsl;
 }
-
 echo faktorial(13);
+
+// RECURSIVE NOT FIXED
+function RecursiveF($in)
+{
+    if ($in == 0) {
+        $in = 1;
+    }
+    return $in * RecursiveF($in - 1);
+}
+echo RecursiveF(5);
