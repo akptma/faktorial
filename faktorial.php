@@ -12,14 +12,3 @@ function faktorial($n)
 }
 
 echo faktorial(13);
-
-
-
-
-// RECURSIVE 
-// function RecursiveF($n)
-// {
-//     return ($n * RecursiveF($n - 1));
-// }
-
-// echo RecursiveF(5);
